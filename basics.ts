@@ -46,4 +46,9 @@ class UserAccount {
 const User: User = new UserAccount("Murphy",1)
 console.log(User,'User is showing');
 
+// Generics Types 
+// Generics provide variables to types . A common example is an array. An array without generics could contain anything. An array with generics can describe the values that the array contains.
 
+type StringArray = Array<string>;
+type NumberArray = Array<number>;
+type ObjectWithNameArray = Array<{name: string}>;
