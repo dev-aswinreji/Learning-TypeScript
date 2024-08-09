@@ -52,3 +52,20 @@ console.log(User,'User is showing');
 type StringArray = Array<string>;
 type NumberArray = Array<number>;
 type ObjectWithNameArray = Array<{name: string}>;
+
+const array : StringArray = ['hello','hai',]
+
+class VirtualPoint {
+  x: number;
+  y: number;
+
+  constructor(x: number, y: number) {
+   this.x = x;
+   this.y = y;
+  }
+}
+
+const newVirtPoint = new VirtualPoint(1,3)
+console.log(newVirtPoint);
+
+
