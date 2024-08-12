@@ -87,4 +87,10 @@ logPoint(newVirtPoint);
 
 // An enum is a special "class" that represents a group of constants (unchangable variables ). Enums come in two flavors string and numeric
 
-enum 
+enum  myEnum {
+  firstConst = 'first',
+  secondConst = 'second'
+} 
+
+console.log(myEnum.firstConst,'firstConst');
+
